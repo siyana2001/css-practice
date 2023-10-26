@@ -1,0 +1,36 @@
+.visible{
+    background-color: rgb(243, 239, 14);
+    width: 200px;
+    height: 90px;
+    border: 1px solid;
+    overflow: visible;
+}
+.scroll{
+    background-color: rgb(235, 134, 39);
+    width: 200px;
+    height: 120px;
+    border: 1px solid;
+    overflow:scroll;
+    position: absolute;
+    left: 250px;
+}
+.overflowy{
+    background-color: rgb(104, 199, 206);
+    width: 200px;
+    height: 105px;
+    border: 1px solid;
+    overflow-y: auto;
+    position: absolute;
+    left: 500px;
+    top: 300px;
+}
+.overflowx{
+    background-color: rgb(219, 84, 208);
+    width: 200px;
+    height: 105px;
+    border: 1px solid;
+    overflow-x: auto;
+    position: absolute;
+    left: 800px;
+    top:400px;
+}

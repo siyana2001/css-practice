@@ -1,0 +1,53 @@
+.class1{
+    text-align: center;
+    color: darkred;
+    font-weight:7000;
+}
+.cashewnut{
+    background-color: rgb(116, 157, 233);
+    float: left;
+    width: 35%;
+    height: 300px;
+    text-align: center;
+}
+.peanut{
+    background-color: rgb(185, 120, 238); 
+    float: left;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+}
+.almonds{
+    background-color: rgb(245, 117, 177);
+    float: right;
+    width: 35%;
+    height: 300px;
+    text-align: center;
+}
+.walnut{
+    background-color: rgb(183, 243, 115);
+    float: left;
+    width: 35%;
+    height: 300px;
+    text-align: center;
+}
+.pista{
+    background-color: rgb(112, 247, 164);
+    float: left;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+}
+.raisin{
+    background-color: rgb(201, 109, 109);
+    float: right;
+    width: 35%;
+    height: 300px;
+    text-align: center;
+}
+.container{
+    padding: 10px 0;
+    margin: 5px 0;
+   
+}
+

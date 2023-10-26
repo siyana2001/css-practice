@@ -1,0 +1,56 @@
+.body{
+    background: linear-gradient(to right,rgb(89, 89, 235),rgb(243, 64, 148));
+}
+.content{
+    width: 400px;
+    height: 600px;
+    margin: 30px;
+    background-color: aliceblue;
+    position: fixed;
+    left: 500px;
+    border-radius:5%;
+}
+.class1{
+    text-align: center;
+}
+.uname{
+    height: 29px;
+    width: 300px
+}
+.pname{
+    height: 29px;
+    width: 300px;
+}
+.form{
+    padding: 35px;
+}
+.pass{
+    text-align: right;
+}
+.button{
+    width:320px;
+    height:35px;
+    background:linear-gradient(to right,rgb(89, 89, 235),rgb(243, 64, 148));
+    border-radius: 40px;
+    color: antiquewhite;
+}
+.sign{
+    text-align: center;
+  font-size:x-small
+}
+.fb{
+    position: absolute;
+    left:130px ;
+}
+.tw{
+    position: absolute;
+    left:190px ;
+}
+.go{
+    position: absolute;
+    left:250px ;
+}
+.sign2{
+    text-align: center;
+  font-size:x-small
+}

@@ -1,0 +1,19 @@
+.class{
+    background-color: blue;
+    color: black;
+    height: 500vh;
+
+}
+
+
+
+@media(min-width:480px){    
+  
+    .class1{
+        background-color: rgb(226, 16, 16);
+          column-gap: 4px;
+          column-count: 2;
+          column-rule: 2px solid black;
+        }
+
+}

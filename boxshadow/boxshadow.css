@@ -1,0 +1,72 @@
+.container{
+    background-color: rgb(243, 243, 243);
+    border-radius: 25px;
+    width: 200px;
+    height: 250px;   
+    box-shadow:10px 10px 5px gray;
+  
+    
+}
+.container >img{
+    width: 40px;
+    position: absolute;
+    top: 45px;
+    left: 150px;
+}
+.clr1{
+    width: 160px;
+    height: 10px;
+    background-color: yellow;
+    position: absolute;
+    left: 28px;
+}
+
+
+.container1{
+    background-color: rgb(243, 243, 243);
+    border-radius: 25px;
+    width: 200px;
+    height: 250px;   
+    box-shadow:10px 10px 5px gray;
+    position: absolute;
+    left: 300px;
+    top: 10px;
+}
+.container1 >img{
+    width: 40px;
+    position: absolute;
+    top: 35px;
+    left: 150px;
+}
+.clr2{
+    width: 160px;
+    height: 10px;
+    background-color: rgb(43, 62, 114);
+    position: absolute;
+    left: 22px;
+}
+
+
+.container2{
+    background-color: rgb(243, 243, 243);
+    border-radius: 25px;
+    width: 200px;
+    height: 250px;   
+    box-shadow:10px 10px 5px gray;
+    position: absolute;
+    left: 600px;
+    top: 10px;
+}
+.container2 >img{
+    width: 35px;
+    position: absolute;
+    top: 33px;
+    left: 150px;
+}
+.clr3{
+    width: 160px;
+    height: 10px;
+    background-color: rgb(5, 90, 26);
+    position: absolute;
+    left: 22px;
+}

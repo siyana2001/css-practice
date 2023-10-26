@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER FORM</title>
+</head>
+<body>  
+    
+    <center><h1 style="color:rgb(83, 83, 229);border-bottom:1px solid rgb(83, 83, 229)" >STUDENTS REGISTRATION FORM</h1></center>
+    <div style="background-color: rgb(83, 83, 229);border-left:5px solid rgb(5, 5, 239);border-right:5px solid rgb(5, 5, 239);border-bottom:5px solid rgb(5, 5, 239);border-top:5px solid rgb(5, 5, 239);">
+    <form>
+    <table style="color:white">
+        <tr>
+            <td>FIRST NAME</td>
+            <td><input type="text" pattern="[A-Za-z]{1,30}" title="Maximum 30 characters">
+            <td> (Max 30 character A-Z and Z-A)</td>
+        </tr>
+        <tr>
+            <td>LAST NAME</td>
+            <td><input type="text" pattern="[A-Za-z]{1,30}" title="Maximum 30 characters">
+            <td> (Max 30 character A-Z and Z-A)</td>
+        </tr>
+        <tr>
+            <td>DATE OF BIRTH</td>
+            <td>
+                <select class="dayselect" id="DAY" name="DAY">
+                    <option value="DAY" >DAY</option>
+                    <option value="1" >1</option>
+                    <option value="2" >2</option>
+                    <option value="3" >3</option>
+                    <option value="4" >4</option>
+                    <option value="5" >5</option>
+                    <option value="6" >6</option>
+                    <option value="7" >7</option>
+                    <option value="8" >8</option>
+                    <option value="9" >9</option>
+                    <option value="10" >10</option>
+                    <option value="11" >11</option>
+                    <option value="12" >12</option>
+                    <option value="13" >13</option>
+                    <option value="14">14 </option>
+                    <option value="15" >15</option>
+                    <option value="16" >16</option>
+                    <option value="17" >17</option>
+                    <option value="18" >18</option>
+                    <option value="19" >19</option>
+                    <option value="20" >20</option>
+                    <option value="21" >21</option>
+                    <option value="22" >22</option>
+                    <option value="23" >23</option>
+                    <option value="24" >24</option>
+                    <option value="25" >25</option>
+                    <option value="26" >26</option>
+                    <option value="27" >27</option>
+                    <option value="28">28</option>
+                    <option value="29" >29</option>
+                    <option value="30" >30</option>
+                    <option value="31">31</option>
+                </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select class="Monthselect" id="month" name="month">
+                    <option value="MONTH" >MONTH</option>
+                    <option value="JAN" >JAN</option>
+                    <option value="FEB" >FEB</option>
+                    <option value="MAR" >MAR</option>
+                    <option value="APR" >APR</option>
+                    <option value="MAY" >MAY</option>
+                    <option value="JUNE" >JUNE</option>
+                    <option value="JULY" >JULY</option>
+                    <option value="AUG" >AUG</option>
+                    <option value="SEP" >SEP</option>
+                    <option value="OCT" >OCT</option>
+                    <option value="NOV" >NOV</option>
+                    <option value="DEC" >DEC</option>
+                </select>
+            <td>
+                <select class="YEARselect" id="year" name="year">
+                    <option value="1990" >YEAR</option>
+                    <option value="1991" >1991</option>
+                    <option value="1992" >1992</option>
+                    <option value="1993" >1993</option>
+                    <option value="1994" >1994</option>
+                    <option value="1995" >1995</option>
+                    <option value="1996" >1996</option>
+                    <option value="1997" >1997</option>
+                    <option value="1998" >1998</option>
+                    <option value="1999" >1999</option>
+                    <option value="2000" >2000</option>
+                    <option value="2001" >2001</option>
+                    <option value="2002" >2002</option>
+                    <option value="2003" >2003</option>
+                    <option value="2004" >2004</option>
+                    <option value="2005" >2005</option>
+                    <option value="2006" >2006</option>
+                    <option value="2007" >2007</option>
+                    <option value="20008" >2008</option>
+                    <option value="2009" >2009</option>
+                    <option value="2010" >2010</option>
+                    <option value="2011" >2011</option>
+                    <option value="2012" >2012</option>
+                    <option value="2013" >2013</option>
+                    <option value="2014" >2014</option>
+                    <option value="2015" >2015</option>
+                    <option value="2016" >2016</option>
+                    <option value="2017" >2017</option>
+                    <option value="2018" >2018</option>
+                    <option value="2019" >2019</option>
+                    <option value="2020" >2020</option>
+                    <option value="2021" >2021</option>
+                    <option value="2022" >2022</option>
+                    <option value="2023" >2023</option>
+                    <option value="2024" >2024</option>
+                    <option value="2025" >2025</option>
+                    <option value="2026" >2026</option>
+              </select>
+             </td>
+        </tr>
+        <tr>
+            <td>EMAIL</td>
+            <td> <input type="email"> </td>
+        </tr>
+        </tr>
+        <tr>
+            <td>MOBILE NUMBER</td>
+            <td> <input type="text" pattern="[6789][0-9]{9}" title="10 characters"> </td>
+            <td>(10 digit numbers)</td>
+        </tr>
+        <tr>
+            <td>GENDER</td>
+            <td>
+                    <label>MALE</label>
+                    <input type="radio" id="MALE" NAME="GENDER" value="MALE">
+                   <label>FEMALE</label>
+                    <input type="radio" id="FEMALE" NAME="GENDER" value="FEMALE">
+            </td>
+        </tr>
+        <tr>
+            <td>ADDRESS</td>
+            <td>
+                     <textarea>
+
+                    </textarea>
+            </td>
+        </tr>
+         <tr>
+            <td>CITY</td>
+            <td><input type="text" pattern=pattern="[A-Za-z]{1,30}" title="Maximum 30 characters">
+            </td>
+            <td>(max 30 characters a-z and A-Z)</td>
+        </tr>
+        <tr>
+            <td>COUNTRY</td>
+            <td> <input type="text"> 
+            </td>
+        </tr>
+        </table>
+        <br>
+        <table style="color:white">
+        <tr>
+            <td rowspan="2">HOBBIES</td>
+            <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="Drawing" name="HOBBIES" value="Singing">Drawing
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="Singing" name="HOBBIES" value="Singing">Singing
+            </td>
+            <td>
+                    <input type="checkbox" id="Dancing" name="HOBBIES" value="Dancing">Dancing
+                    <input type="checkbox" id="Sketching" name="HOBBIES" value="Sketching">Sketching
+            </td>
+        <tr>
+            <td>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="others" name="HOBBIES" value="others">Others
+                <input type="text"></td>
+        </tr>
+        </tr>
+        </tr>
+    </table>
+    <br>
+    <table style="color:white">
+        <tr>
+            <td rowspan="6">QUALIFICATION</td>
+            <th>S.NO</th>
+            <th>EXAMINATION</th>
+            <th>BOARD</th>
+            <th>PERCENTAGE</th>
+            <th>YEAR OF PASSING</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>CLASS X</td>
+            <td><input type=""></td>
+            <td><input type=""></td>
+            <td><input type=""></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>CLASS XII</td>
+            <td><input type=""></td>
+            <td><input type=""></td>
+            <td><input type=""></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>GRADUATION</td>
+            <td><input type=""></td>
+            <td><input type=""></td>
+            <td><input type=""></td>
+        </tr>
+        <tr>
+            <td rowspan="2">4</td>
+            <td rowspan="2">MASTERS</td>
+            <td><input type=""></td>
+            <td><input type=""></td>
+            <td><input type=""></td>
+        </tr>
+        <tr>
+        <td>(10 char MAX)</td>
+        <td>(Upto 2 decimal)</td>
+        </tr>
+    </table>
+    <br>
+    <table style="color:white">
+        <td>COURSE <br>APPLIED<br> FOR</td>
+        <td>
+            <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BCA</label>
+            <input type="radio" id="BCA"name="EDUCATION" value="BCA">
+            <label>B.com</label>
+            <input type="radio" id="B.com" NAME="EDUCATION" value="B.com">
+            <label>B.Sc</label>
+            <input type="radio" id="B.Sc" NAME="EDUCATION" value="B.Sc">
+            <label>B.A</label>
+            <input type="radio" id="B.A" NAME="EDUCATION" value="B.A">
+        </td>
+    </table>
+    <br>
+    <center><button>SUMBIT</button>
+        &nbsp;&nbsp;<button>RESET</button>
+    </center>
+    </form>
+ </div>
+</body>
+</html>

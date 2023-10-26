@@ -1,0 +1,33 @@
+.border1{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 2px;
+}
+.border2{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    border: 20px solid rgb(6, 44, 100);
+    float: left;
+    margin: 5px;
+}
+.border3{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    border: 20px solid rgb(6, 44, 100);
+    float: left;
+    margin: 10px;
+    padding: 20px;
+}
+.border4{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    border: 20px solid rgb(6, 44, 100);
+    float: left;
+    margin: 20px;
+    padding: 20px;
+}

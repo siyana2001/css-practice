@@ -1,0 +1,12 @@
+
+ 
+   
+    
+
+body{
+    background: radial-gradient(brown,orange,grey);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}

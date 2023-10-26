@@ -1,0 +1,52 @@
+
+
+.header{
+    background-color: darkcyan;
+    text-align: center;
+}
+.float1{
+    background-color: rgb(58, 45, 241);
+    float: left;
+    height: 300px;
+    width:35% ;
+    text-align: center;
+}
+.float2{
+    background-color: rgb(4, 204, 144);
+    float: left;
+    height: 300px;
+    width:35% ;
+    text-align: center;
+}
+.float3{
+    background-color: rgb(201, 37, 25);
+    float: right;
+    height: 300px;
+    width:30% ;
+    text-align: center;
+}
+.float4{
+    background-color: rgb(212, 25, 181);
+    float: left;
+    height: 300px;
+    width:50% ;
+    text-align: center;
+}
+.float5{
+    background-color: rgb(202, 30, 53);
+    float: right;
+    height: 300px;
+    width:50% ;
+    text-align: center;
+}
+.footer{
+    background-color: gold;
+    float: none;
+    clear: both;
+    text-align: center;
+}
+.container{
+    text-align:center;
+    padding: 10px 0;
+    margin: 10px 0;
+}

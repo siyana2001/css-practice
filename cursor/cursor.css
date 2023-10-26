@@ -1,0 +1,12 @@
+.class1{
+    cursor: no-drop;
+}
+.class2{
+    cursor: all-scroll;
+}
+.class3{
+    cursor: auto;
+}
+.class4{
+    cursor: grab;
+}

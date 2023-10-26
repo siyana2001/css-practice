@@ -1,0 +1,26 @@
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+  }
+
+  a:hover {
+    color: rgb(187, 96, 44);
+  }
+
+  a:active {
+    color: rgb(25, 25, 90);
+  }
+  a:focus{
+    background-color: aqua;
+  }
+  div p:first-child{
+    background-color: rgb(255, 99, 8);
+  }
+
+ 
+ div :nth-child(even){
+    background-color: rgb(22, 145, 167);
+ }

@@ -1,0 +1,51 @@
+.img{
+background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.4;
+}
+.para{
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    font-family: fantasy;
+    font-size:xx-large
+
+}
+.para1{
+    position: absolute;
+    left: 400px;
+    top: 200px;
+   font-size: 100px; 
+   font-weight: bolder;
+   font-family:cursive;
+   color: black;
+}
+.para2{
+    position: absolute;
+    bottom: 600px;
+    left: 1400px;
+    font-size: xx-large;
+}
+.btn{
+      
+    width:200px;
+    height:40px;
+    position: absolute;
+    left:500px;
+    top: 390px;
+    text-align: center;
+   color: black;
+   background-color: aqua;
+  
+}
+.btn2{
+    width:200px;
+    height:40px;
+    position: absolute;
+    left:730px;
+    top: 390px;
+    text-align: center;
+   color: black;
+   background-color: rgb(241, 247, 247);
+}
+

@@ -1,0 +1,71 @@
+body{
+    background-image: url(https://w0.peakpx.com/wallpaper/29/837/HD-wallpaper-playground-swing-grass-rainbow-lawn-play.jpg);
+    background-repeat: no-repeat;
+    background-size: 1550px 700px;
+}
+.para1{
+    position: absolute;
+    left: 200px;
+    color: red;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.para3{
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+    width: 200px;
+}
+.para4{
+    position: absolute;
+    top: 10px;
+    left: 1300px;
+}
+.para2{
+    position: absolute;
+    left: 400px;
+    top: 300px;
+    color: rgb(5, 5, 5);
+    font-family: "Brush Script MT", cursive;
+}
+.btn{
+      
+    width:200px;
+    height:50px;
+    border-radius:12px 64px;
+    text-align: center;
+   color: rgb(255, 250, 250);
+   background-color: red;
+   position: absolute;
+   left: 400px;
+   top: 500px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    background-color: rgb(255, 255, 248);
+    width: 600px;
+    height: 50px;
+    border-radius: 20%;
+    text-align: center;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(12, 11, 11);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 

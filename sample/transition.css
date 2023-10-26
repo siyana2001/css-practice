@@ -1,0 +1,32 @@
+.circle{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   transform: translate(20px, 30px);
+}
+.circle:hover{
+    background-color: rgb(41, 29, 53);
+    width: 500px;
+    height: 300px;
+}
+.circle1{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+
+   
+}
+.circle1{
+    transform: rotate(20deg);
+}
+.circle2{
+    background-color: rgb(212, 29, 29);
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+.circle2{
+    transform: skew(30deg);
+
+}

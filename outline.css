@@ -1,0 +1,39 @@
+.p1{
+    outline-style: dashed;
+    width: 30%;
+}
+.p2{
+    outline-style: dotted;
+    width: 30%;
+}
+.p3{
+    outline-style:solid ;
+    width: 30%;
+}
+.p4{
+    outline-style: double;
+    width: 30%;
+    outline-color: rgb(103, 168, 206);
+}
+.p5{
+    outline-style: groove;
+    width: 30%;
+}
+.p6{
+    outline-style: inset;
+    width: 30%;
+    outline-color: rgb(41, 207, 124);
+}
+.p7{
+    outline-style: ridge;
+    width: 30%;
+}
+.p8{
+    outline-style: outset;
+    width: 30%;
+    outline-color: rgb(30, 124, 248);
+}
+.p9{
+    outline-style: hidden;
+    width: 30%;
+}

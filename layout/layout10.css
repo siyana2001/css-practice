@@ -1,0 +1,16 @@
+.p1{
+    text-align: center;
+    text-transform: uppercase;
+color: darkblue;
+}
+    .p2{
+        text-align: center;
+        text-transform: uppercase;
+        color: darkred;
+    }
+    .p3{
+        color: darkmagenta;
+       letter-spacing: 3px;
+    }
+    .h1{text-decoration: overline underline;}
+

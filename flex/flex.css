@@ -1,0 +1,23 @@
+
+
+.container{
+    display: flex;
+    justify-content:flex-start;
+    background-color: black;
+    flex-direction:row;
+    justify-content: center;
+
+  
+}
+.container > div {
+  background-color:rgb(235, 235, 243) ;
+  margin: 30px;
+  padding: 20px;
+  color: rgb(0, 15, 228);
+  width:10%;
+  height: 90px;
+text-align: center;
+font-size: 30px
+;
+
+}

@@ -1,0 +1,25 @@
+p::first-line{
+    color: rgb(4, 65, 156);
+}
+p::first-letter{
+    color: rgb(240, 8, 55);
+   font-size: 300%;
+}
+h1::selection{
+    color: darkorange;
+    background-color: darkblue;
+}
+
+
+::marker{
+    color: rgb(0, 81, 255);
+  font-size: 23px;
+}
+h2::after{
+    content:"@";
+    color: rgb(7, 204, 178);
+}
+h3::before{
+    content:"@";
+    color: rgb(7, 204, 178);
+}

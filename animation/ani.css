@@ -1,0 +1,24 @@
+.loader{
+    width: 150px;
+    height: 150px;
+    border-left: 5px solid #38ff8e;
+    border-radius: 50%;
+    animation: right5231
+    0.9s linear infinite;
+}
+.loader1{
+    width: 100px;
+    height: 100px;
+    border-left: 5px solid #e02c0d;
+    border-radius: 50%;
+    animation: right5231
+    0.9s linear infinite;
+}
+.loader2{
+    width: 50px;
+    height: 50px;
+    border-left: 5px solid #eff309;
+    border-radius: 50%;
+    animation: right5231
+    0.9s linear infinite;
+}
